@@ -1,5 +1,6 @@
 import CounterControl from './components/CounterControl';
 import CounterDisplay from './components/CounterDisplay';
+import AuthControl from './components/AuthControl';
 function App()
 { 
   return(
@@ -8,6 +9,7 @@ function App()
       <h1>Welcome to Redux Toolkit Counter</h1>
       <CounterDisplay />
       <CounterControl />
+      <AuthControl />
     </div>
     {/* <Counter /> */}
     </>

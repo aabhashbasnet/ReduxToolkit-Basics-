@@ -1,11 +1,16 @@
-import Counter from './features/counter/Counter.jsx';
+import CounterControl from './components/CounterControl';
+import CounterDisplay from './components/CounterDisplay';
 function App()
-{
+{ 
   return(
     <>
-    Welcome to Redux Toolkits
-    <Counter />
+    <div style ={{textAlign: 'center', marginTop: '50px'}}>
+      <h1>Welcome to Redux Toolkit Counter</h1>
+      <CounterDisplay />
+      <CounterControl />
+    </div>
+    {/* <Counter /> */}
     </>
-  )
+  );
 }
 export default App
